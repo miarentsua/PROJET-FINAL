@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: white;
+}
+
+.shadow {
+    font-size: xx-large;
+    font-family: Arial;
+
+    .span {
+        font-size: 48px;
+        vertical-align: text-bottom;
+        color: #f82509;
+    }
+
+    .ecole {
+        font-size: 24px;
+        vertical-align: text-top;
+    }
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    /**background-color: white;**/
+    padding: 2em;
+    border-radius: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 0rem;
+}
+
+.logo {
+    width: 6rem;
+    height: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+body {
+    margin: 50px;
+    height: fit-content;
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 1px px 0;
+    width: 202%;
+    align-items: center;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    margin-right: 1%;
+    text-align: center;
+    line-height: 1;
+    color: black;
+    border-radius: 10px;
+    transition: padding .2s;
+
+}
+
+li:last-child a {
+    margin-right: 2px;
+    margin: 5px 0px 5px 0px;
+}
+
+a:link,
+a: :visited,
+a:focus {
+    background: yellow;
+}
+
+a:hover {
+    background: rgba(136, 136, 139, 0.863);
+    padding: .3rem 1rem;
+}
+
+a:active {
+    color: rgb(75, 90, 233);
+}
+
+.millieu-gauche {
+    text-align: center;
+    padding-left: 50rem;
+    color: red;
+}
+
+.photos {
+    width: 25rem;
+    height: 100%;
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: -30px;
+    transform: matrix(rotation);
+}
+
+
+
+
+
+
+
+
+.photos {
+    width: 25rem;
+    height: 100%;
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.photos {
+    width: 25rem;
+    height: 100%;
+    border-radius: 50px;
+    padding: 0px;
+    margin-bottom: 70px;
+}
